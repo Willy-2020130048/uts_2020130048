@@ -162,6 +162,19 @@ class _CartScreenState extends State<CartScreen> {
                                 ),
                               ),
                             ),
+                            Expanded(
+                              flex: 1,
+                              child: IconButton(
+                                onPressed: (){
+                                  provider.produks.removeAt(index);
+                                  setState(() {});
+                                },
+                                icon: const Icon(
+                                  Icons.remove_circle,
+                                  color: Colors.red,
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                       ),
