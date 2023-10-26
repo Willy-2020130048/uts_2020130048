@@ -15,6 +15,11 @@ class CartScreen extends StatefulWidget {
 class _CartScreenState extends State<CartScreen> {
   int totalBayar = 0;
 
+  @override
+  void initState() {
+    super.initState();
+  }
+
   int getTotal(List<Produk> produks) {
     int total = 0;
     for (var produk in produks) {
@@ -198,7 +203,24 @@ class _CartScreenState extends State<CartScreen> {
                               ),
                               onPressed: () {
                                 provider.produks.clear();
-                                Navigator.pop(context);
+                                showDialog<String>(
+                                  context: context,
+                                  builder: (BuildContext context) =>
+                                      AlertDialog(
+                                    title: const Text('Purchased'),
+                                    content:
+                                        const Text('Barang berhasil dibeli.'),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () {
+                                          Navigator.pop(context, 'OK');
+                                          setState(() {});
+                                        },
+                                        child: const Text('OK'),
+                                      ),
+                                    ],
+                                  ),
+                                );
                               },
                               child: const Text(
                                 "Checkout",

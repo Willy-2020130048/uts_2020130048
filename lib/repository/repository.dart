@@ -7,7 +7,8 @@ class RepositoryProduk {
         nama: 'Costume Hu Tao',
         harga: 150000,
         jenis: 'Costume',
-        keterangan: "Sewa Hutao Cosplay",
+        keterangan:
+            "Penyewaan costume Hu Tao, termasuk baju, celana, sepatu, topi dan wig. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -15,7 +16,8 @@ class RepositoryProduk {
         nama: 'Costume Zero Two',
         harga: 100000,
         jenis: 'Costume',
-        keterangan: "Sewa Zerotwo Cosplay",
+        keterangan:
+            "Penyewaan costume Zero Two, termasuk baju, celana dan wig. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -23,7 +25,8 @@ class RepositoryProduk {
         nama: 'Costume Gura',
         harga: 100000,
         jenis: 'Costume',
-        keterangan: "Sewa Gura Cosplay",
+        keterangan:
+            "Penyewaan costume Gura, termasuk hoodie dan wig. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -31,7 +34,8 @@ class RepositoryProduk {
         nama: 'Wig Kazuha',
         harga: 50000,
         jenis: 'Wig',
-        keterangan: "Sewa Wig Kazuha",
+        keterangan:
+            "Penyewaan wig Kazuha, penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -39,7 +43,8 @@ class RepositoryProduk {
         nama: 'Wig Maki',
         harga: 50000,
         jenis: 'Wig',
-        keterangan: "Sewa Wig Maki",
+        keterangan:
+            "Penyewaan wig Maki, penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -47,7 +52,8 @@ class RepositoryProduk {
         nama: 'Wig Neon Genesis',
         harga: 50000,
         jenis: 'Wig',
-        keterangan: "Sewa Wig Neon Genesis",
+        keterangan:
+            "Penyewaan wig Neon Genesis, penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -55,7 +61,8 @@ class RepositoryProduk {
         nama: 'Senjata Sword Gun',
         harga: 65000,
         jenis: 'Acc',
-        keterangan: "Sewa Senjata Sword Gun",
+        keterangan:
+            "Penyewaan senjata AOT, senjata terbuat dari alumunium. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -63,7 +70,8 @@ class RepositoryProduk {
         nama: 'Staff of Homa',
         harga: 65000,
         jenis: 'Acc',
-        keterangan: "Sewa Staff of Homa",
+        keterangan:
+            "Penyewaan Staff of Homa dari genshin impact. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
     Produk(
@@ -71,7 +79,8 @@ class RepositoryProduk {
         nama: 'Topi One Piece',
         harga: 50000,
         jenis: 'Acc',
-        keterangan: "Sewa Topi Luffy",
+        keterangan:
+            "Penyewaan topi bajak laut luffy terbuat dari jerami. Penyewaan dengan durasi 3 hari dan harus langsung dikembalikan atau dikenakan denda 50.000",
         jumlah: 0,
         total: 0),
   ];

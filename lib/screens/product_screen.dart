@@ -87,7 +87,7 @@ class _ProdukScreenState extends State<ProdukScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(bottom: 40.0),
+                        padding: const EdgeInsets.only(bottom: 24.0),
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Text(
@@ -104,6 +104,7 @@ class _ProdukScreenState extends State<ProdukScreen> {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             widget.dataProduk.keterangan,
+                            textAlign: TextAlign.justify,
                             style: const TextStyle(
                               fontSize: 16,
                             ),
